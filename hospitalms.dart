@@ -275,7 +275,9 @@ void main() {
      "smith"	:"Tuesday 10am-11am",
      "jones" :	"Monday 3pm-2pm"
     };
-     stdout.writeln("There are two doctor's in are hospital smith and jones.");
+    stdout.writeln("Doctors: ");
+     stdout.writeln("- smith ");
+     stdout.writeln("- jones ");
   stdout.writeln("Enter doctor's name or quit:");
   String input = stdin.readLineSync()!.trim();
   if (input.toLowerCase() == 'fees') {
@@ -310,7 +312,9 @@ void main() {
     "adams"	:"Wednesday 10am-2pm",
      "brown"	:"Thursday 10am-1pm"
     };
-     stdout.writeln("There are two doctor's in are hospital adams and brown.");
+     stdout.writeln("Doctors: ");
+     stdout.writeln("-adams");
+      stdout.writeln("-brown ");
   stdout.writeln("Enter doctor's name or quit:");
   String input = stdin.readLineSync()!.trim();
   if (input.toLowerCase() == 'fees') {
@@ -344,7 +348,9 @@ void main() {
    "williams"	:"Thursday 2pm-5pm",
       "miller"	:"Friday 3pm-4pm"
     };
-     stdout.writeln("There are two doctor's in are hospital williams and miller.");
+     stdout.writeln("Doctors: ");
+     stdout.writeln("-williams");
+      stdout.writeln("miller ");
   stdout.writeln("Enter doctor's name or quit:");
   String input = stdin.readLineSync()!.trim();
   if (input.toLowerCase() == 'fees') {
@@ -378,7 +384,9 @@ void main() {
    "garcia"	:"Monday 9am-10am",
     "davis"	:"Tuesday 9am-11am"
     };
-     stdout.writeln("There are two doctor's in are hospital garcia and davis.");
+     stdout.writeln("Doctors: ");
+     stdout.writeln("-garcia");
+      stdout.writeln("-davis ");
   stdout.writeln("Enter doctor's name or quit:");
   String input = stdin.readLineSync()!.trim();
   if (input.toLowerCase() == 'fees') {
@@ -413,7 +421,9 @@ void main() {
    "clark"	:"Saturday 9am-11am",
      "james":	"Thursday 7pm-9pm"
     };
-     stdout.writeln("There are two doctor's in are hospital clark and james.");
+     stdout.writeln("Doctors: ");
+     stdout.writeln("-clark");
+      stdout.writeln("-james ");
   stdout.writeln("Enter doctor's name or quit:");
   String input = stdin.readLineSync()!.trim();
   if (input.toLowerCase() == 'fees') {
